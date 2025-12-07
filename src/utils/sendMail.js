@@ -20,7 +20,7 @@ async function sendApplicationEmail(
   const message = `
 Dear HR Team,
 
-Hope you're doing well. I’m reaching out regarding the ${designation} role at ${companyName}, as I noticed the team is currently hiring. With 2+ years of hands-on experience building production-grade applications using React, Next.js, Tailwind, Redux, and modern backend stacks, I believe I’d be a strong fit.
+Hope you're doing well. I’m reaching out regarding the ${designation} role at ${companyName}, as I noticed the team is currently hiring. With 2+ years of hands-on experience building production-grade applications using React, Next.js, Redux, and modern backend stacks such as node.js, nestjs, SQL/NoSQL, I believe I’d be a strong fit.
 
 I’ve recently delivered high-impact features at Antino Labs and previously at Insoftlink, where I improved system performance, enhanced user experience, and contributed directly to product growth. I’m now looking to bring the same execution, ownership, and problem-solving mindset to a fast-moving engineering team.
 
@@ -50,6 +50,7 @@ Mohit Singh Rawat
 
   try {
     const data= await transporter.sendMail(mailOptions);
+    console.log(data)
     return data
   } catch (error) {
     console.error("Failed to send email:", error);
