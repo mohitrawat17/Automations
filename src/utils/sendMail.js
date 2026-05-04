@@ -21,8 +21,7 @@ I came across your opening for a <b>${designation}</b> role at <b>${companyName}
 </p>
 
 <p>
-I’m a Frontend Developer with <b>2.5+ years of experience</b> building production-grade applications using 
-<b>React, Next.js, Redux</b>, along with backend exposure in <b>Node.js and SQL/NoSQL</b>.
+With <b>2.5+ years of experience</b> in building production-grade applications using <b>React, Next.js, Redux</b>, along with backend exposure in <b>Node.js and SQL/NoSQL</b>, I believe I’d be a strong fit.
 </p>
 
 <p><b>Here’s a quick snapshot of what I bring:</b></p>
